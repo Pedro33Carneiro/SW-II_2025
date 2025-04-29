@@ -1,8 +1,8 @@
 <?php
     $json_str = '{"empregados": '.
-    '[{"nome": "Wesley", "idade": 17, "genero": "M", "dependentes": ["Tiago","Lucas"]},'.
-    '{"nome": "Pedro", "idade": 17, "genero": "M"},'.
-    '{"nome": "Iago", "idade": 17, "genero": "M"}'.
+    '[{"nome": "Pedro", "idade": 17, "genero": "M", "dependentes": ["Tiago","Lucas"]},'.
+    '{"nome": "Wesley", "idade": 17, "genero": "M"},'.
+    '{"nome": "Vinicius", "idade": 17, "genero": "M"}'.
     '],
     "data": "15/12/2012"}';
     $jsonObj = json_decode($json_str);

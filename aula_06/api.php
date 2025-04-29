@@ -2,8 +2,8 @@
     header("Content-Type: application/json");
     $metodo = $_SERVER['REQUEST_METHOD'];
     $usuarios = [
-        ["id" => 1, "nome" => "Wesley Mendes", "email" => "wesley@email.com"],
-        ["id" => 2, "nome" => "Tiago Estrada", "email" => "tiago@email.com"]
+        ["id" => 1, "nome" => "Pedro Santos", "email" => "pedro@email.com"],
+        ["id" => 2, "nome" => "Rebeca Leite", "email" => "rebeca@email.com"]
     ];
     switch ($metodo) {
         case 'GET':
